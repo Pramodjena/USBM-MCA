@@ -22,15 +22,15 @@
 
 // Ex: Print from 1 to 10;
 
-let num = 1; // declartion
-console.log("Global:", num); // print 1
+// let num = 1; // declartion
+// console.log("Global:", num); // print 1
 
-while (num <= 10) {
-  console.log("Block:", num); // print
-  num++;
-}
+// while (num <= 10) {
+//   console.log("Block:", num); // print
+//   num++;
+// }
 
-console.log("Global:", num); // print 11
+// console.log("Global:", num); // print 11
 
 // Do .. while loop :
 // syntax :
@@ -40,13 +40,47 @@ console.log("Global:", num); // print 11
 
 // Ex: Asking for user to the correct input
 
-let userAns;
+// let userAns;
 
-do {
-  userAns = prompt("What is the capital of Odisha?");
-  //   console.log("Wrong");
-} while (userAns !== "Bhubaneswar");
+// do {
+//   userAns = prompt("What is the capital of Odisha?");
+//   console.log("Wrong");
+// } while (userAns !== "Bhubaneswar");
 
-console.log("Correct");
+// console.log("Correct");
 
-console.log("Bhubanewsar" !== "Bhubanewsar"); // true
+// console.log("Bhubanewsar" !== "Bhubanewsar"); // true
+
+// For Loops
+
+// todo Generate random number and add them upto 5 times
+
+let sum = 0;
+for (let i = 0; i <= 5; i++) {
+  let random = Math.floor(Math.random() * 10);
+  let result = sum + random;
+  console.log(`The random sum result is ${result}`);
+}
+
+// Nested Loops
+// A loop inside an another loop that is basically called nested loops.
+
+// Example:
+// Syntax :
+
+// for (initialization; condition; increment/decrement) {
+// code to be executed
+//   for (initialization; condition; increment/decrement) {
+// code to be executed
+//   }
+//   }
+
+// Examples:
+// Pattern printing
+for (let i = 1; i <= 5; i++) {
+  let pattern = "";
+  for (let j = 1; j <= i; j++) {
+    pattern += "*";
+  }
+  console.log(pattern);
+}
