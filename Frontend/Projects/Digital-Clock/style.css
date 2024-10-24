@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+  font-family: "Noto Serif Oriya", serif;
+  font-weight: 700;
+}
+
+.heading {
+  color: #fff;
+}
+
+.clock-container {
+  background-color: #3b3f47;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #212121;
+}
+
+#clock {
+  font-size: 48px;
+  color: #61dafb;
+  letter-spacing: 2px;
+}
