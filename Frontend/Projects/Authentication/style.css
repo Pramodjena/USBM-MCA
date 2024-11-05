@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  border-bottom: 3px solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.signUpForm {
+  max-width: 500px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.signUpForm input {
+  max-width: 300px;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.signUpForm button {
+  max-width: 300px;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.loginForm {
+  max-width: 500px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.loginForm input {
+  max-width: 300px;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.loginForm button {
+  max-width: 300px;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Rubik+Wet+Paint&family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <li>Home</li>
+      <li>About</li>
+      <li>Service</li>
+      <li>Login</li>
+    </nav>
+
+    <!-- signup form -->
+    <section id="signup">
+      <div class="signUpForm">
+        <h2>Sign Up Form</h2>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="Username"
+        />
+        <label for="useremail">Useremail:</label>
+        <input
+          type="email"
+          id="useremail"
+          name="useremail"
+          required
+          placeholder="Useremail"
+        />
+        <label for="userepassword">Userpassword:</label>
+        <input
+          type="password"
+          id="userepassword"
+          name="userepassword"
+          required
+          placeholder="Userpassword"
+        />
+        <button id="signupBtn">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- login form -->
+    <section id="login" style="display: none">
+      <div class="loginForm">
+        <h2>Login Form</h2>
+        <label for="loginUsername">Username:</label>
+        <input
+          type="text"
+          id="loginUsername"
+          name="loginUsername"
+          required
+          placeholder="Username"
+        />
+        <label for="loginPassword">Password:</label>
+        <input
+          type="password"
+          id="loginPassword"
+          name="loginPassword"
+          required
+          placeholder="Password"
+        />
+        <button id="loginBtn">Login</button>
+      </div>
+    </section>
+
+    <!-- dashboard view -->
+    <!-- Dashboard section -->
+    <section id="dashboard" style="display: none">
+      <h2 id="usernameDisplay"></h2>
+      <button onclick="logout()">Logout</button>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
