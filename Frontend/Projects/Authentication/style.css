@@ -72,3 +72,16 @@ nav li {
   padding: 10px 0;
   font-size: 1.2rem;
 }
+
+#dashboard button {
+  width: 300px;
+  margin-top: 20px;
+  background-color: red;
+  border: none;
+  padding: 10px 0;
+  color: white;
+  font-size: 1.2rem;
+}
+#dashboard button:hover {
+  cursor: pointer;
+}
